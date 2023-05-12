@@ -1,0 +1,35 @@
+#outer-box{
+padding: 10px;
+}
+window, #outer-box {
+border: 2px solid #a7c080;
+background-color: #2e3440;
+border-radius: 10px;
+overflow: hidden;
+}
+
+#input {
+    background-color: #9da9a0;
+    outline: none;
+    border: none;
+
+}
+
+#input:focus {
+    border: none;
+    outline: none;
+}
+
+#entry {
+margin-top: 2px;
+border: 2px solid #56635f;
+background-color: #3b4252;
+}
+
+#entry:selected {
+    border: 2px solid #a7c080;
+}
+
+#text {
+    color: #9da9a0;
+}

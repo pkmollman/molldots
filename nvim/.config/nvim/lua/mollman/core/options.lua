@@ -10,7 +10,7 @@ vim.g.mapleader = " "
 
 -- mouse and clipboard
 opt.mouse:append('a')
-opt.clipboard = 'unnamed'
+opt.clipboard = 'unnamedplus'
 
 -- searching
 opt.hlsearch = false
